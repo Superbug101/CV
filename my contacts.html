@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contacts</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>Phone: 3854169978</li>
+      <li>Email: 1535638767@qq.c</li>
+      <li>Address: Handan China</li>
+    </ul>
+
+    <hr>
+
+    <h1>Tell me about yourself</h1>
+
+    <form class="" action="mailto:zhangzhixiao2017gt@gamil.com" method="post" enctype="text/plain">
+      <!-- action defult 是链接到index，改成mailto：what mailtos do is that when you press the submit button, they'll open up your default mail client, -->
+      <!--the post in this case simply means that we're going to transfer what the user types into these input fields into the email client.-->
+      <!-- add the encode type because So that way, when it launches the Mail app, you won't have these funny percentage signs and numbers.
+You'll instead just have plain text. -->
+      <label for="">Your Name: </label>
+      <input type="text" name="YourName" value=""><br><br>
+      <label for="">Your Email: </label>
+      <input type="email" name="YourEmail" value=""><br><br>
+      <label for="">Your Message: </label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" value="submit">
+      <!-- name Now, the other thing we need to add is a value to each of these name attributes,
+      because that's going to identify the data that's inside each of these inputs.所以到了邮件里会自动标出各种信息；eg；Yourname：Phoebe -->
+    </form>
+
+
+    </form>
+
+  </body>
+</html>
